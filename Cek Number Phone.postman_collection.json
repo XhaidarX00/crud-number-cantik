@@ -1,0 +1,124 @@
+{
+    "info": {
+        "_postman_id": "eeac864b-d3ab-47fd-875e-1016b0f39e8c",
+        "name": "Cek Number Phone",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "31738017"
+    },
+    "item": [{
+            "name": "Cek Number",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/number/cek?number=087774247633",
+                    "host": [
+                        "http://localhost:8080"
+                    ],
+                    "path": [
+                        "api",
+                        "number",
+                        "cek"
+                    ],
+                    "query": [{
+                        "key": "number",
+                        "value": "087774247633"
+                    }]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Find Number",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/number/cek?number=087774247633",
+                    "host": [
+                        "http://localhost:8080"
+                    ],
+                    "path": [
+                        "api",
+                        "number",
+                        "cek"
+                    ],
+                    "query": [{
+                        "key": "number",
+                        "value": "087774247633"
+                    }]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Cek List Number",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/number",
+                    "host": [
+                        "http://localhost:8080"
+                    ],
+                    "path": [
+                        "api",
+                        "number"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Delete Number",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/number/delete?number=087774247633",
+                    "host": [
+                        "http://localhost:8080"
+                    ],
+                    "path": [
+                        "api",
+                        "number",
+                        "delete"
+                    ],
+                    "query": [{
+                        "key": "number",
+                        "value": "087774247633"
+                    }]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Update Number",
+            "request": {
+                "method": "PUT",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/number/update?number=087774247633&new_number=0877777",
+                    "host": [
+                        "http://localhost:8080"
+                    ],
+                    "path": [
+                        "api",
+                        "number",
+                        "update"
+                    ],
+                    "query": [{
+                            "key": "number",
+                            "value": "087774247633"
+                        },
+                        {
+                            "key": "new_number",
+                            "value": "0877777"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
